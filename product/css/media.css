@@ -1,0 +1,121 @@
+@media (max-width: 608px) {
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 608px) {
+    .car .block {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .car .block .box {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .car .block .box img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .car .block .box p {
+        max-width: 100%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 608px) {
+    .title {
+        padding-left: 0;
+        padding-top: 30px;
+        text-align: center;
+        font-size: 24px;
+    }
+}
+
+/* Добавляем адаптив для header */
+@media (max-width: 608px) {
+    header .text {
+        padding-bottom: 200px;
+        text-align: center;
+    }
+    
+    header .text h1 {
+        font-size: 36px;
+        padding-top: 20px;
+    }
+}
+
+/* Добавляем адаптив для section hino */
+@media (max-width: 608px) {
+    .hino h4 {
+        padding-top: 50px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .hino .block {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .hino .block .box {
+        text-align: center;
+    }
+    
+    .hino .block .box img {
+        max-width: 80px;
+        height: auto;
+    }
+}
+
+/* Добавляем адаптив для footer */
+@media (max-width: 608px) {
+    footer h2 {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+}
+
+/* Дополнительные медиа-запросы для очень маленьких устройств */
+@media (max-width: 480px) {
+    header .text h1 {
+        font-size: 28px;
+    }
+    
+    .title {
+        font-size: 20px;
+    }
+    
+    .car .block .box h3 {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+    
+    .hino h4 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 360px) {
+    header .text {
+        padding-bottom: 150px;
+    }
+    
+    header .text h1 {
+        font-size: 24px;
+    }
+    
+    .car .block {
+        gap: 15px;
+    }
+}
